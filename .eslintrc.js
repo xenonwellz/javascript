@@ -25,6 +25,8 @@ module.exports = {
         "no-irregular-whitespace": ["error"],
         "indent": ["error", 4, { "SwitchCase": 1 }],
         "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
+        "max-len": ["error", { "code": 120 }],
+        "unicorn/no-null": "off",
         "one-var": ["error", "never"],
         "no-cond-assign": ["error", "except-parens"],
         "comma-dangle": ["error", "always-multiline"],
