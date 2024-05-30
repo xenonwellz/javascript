@@ -1,12 +1,20 @@
 {
     "name": "linting-standard",
+    "description": "Linting Standard for Javascript",
     "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
     "author": "Obed Ovabor",
+    "bugs": {
+        "url": "https://github.com/xenonwellz/javascript/issues"
+    },
+    "homepage": "https://github.com/xenonwellz/javascript#readme",
+    "keywords": [
+        "eslint",
+        "prettier"
+    ],
     "license": "ISC",
-    "description": "Linting Standard for Javascript"
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/xenonwellz/javascript.git"
+    }
 }
