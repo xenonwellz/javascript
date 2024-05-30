@@ -1,7 +1,3 @@
-const eslintConfig = require('./.eslintrc.json');
-const prettierConfig = require('./.prettierrc');
+const eslintrc = require('./.eslintrc.js');
 
-module.exports = {
-    eslintConfig,
-    prettierConfig
-};
+module.exports = eslintrc;
